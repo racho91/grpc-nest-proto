@@ -14,7 +14,7 @@ message CreateProductRequest{
     string name=1;
     string sku=2;
     int32 stock=3;
-    double proce=4;
+    double price=4;
 }
 
 message CreateProductResponse{
